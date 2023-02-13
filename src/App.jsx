@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 const App = () => {
   return (
     <div>
         <h1>Webpack Open</h1>
+        <span>This project Structure is basically changed as Create-React-App </span>
     </div>
   )
 };
-ReactDOM.render(<App />, document.getElementById('app'));
 export default App;
