@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = () => {
+interface Props {}
+
+const App = ({}: Props) => {
   return (
     <div>
-        <h1>Webpack Open</h1>
+        <h1>Webpack Open!</h1>
     </div>
   )
 };
