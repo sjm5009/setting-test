@@ -1,13 +1,15 @@
 {
-  "name": "setting-test",
+  "name": "nh-react-setting-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "react native setting test 2023",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development",
+    "prebuild": "rimraf dist",
+    "build": "webpack --progress --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "nahyeon",
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",
@@ -23,5 +25,13 @@
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjm5009/setting-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sjm5009/setting-test/issues"
+  },
+  "homepage": "https://github.com/sjm5009/setting-test#readme"
 }
