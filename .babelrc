@@ -1,11 +1,12 @@
 {
     "presets": [
-      [
-          "@babel/preset-env",
-          // 컴파일 브라우저 설정
-          // 브라우저의 상위 버전 두개(예: IE 11, 10)와 한국(KR)에서 5% 이상의 점유율을 가지고 있는 브라우저에 대응하여 컴파일한다.
-          { "targets": { "browsers": ["last 2 versions", ">= 5% in KR"] } } 
-      ],
-      "@babel/react"  // 리액트도 컴파일 할 수 있도록 한다.
+        [
+            "@babel/preset-env",
+            // 컴파일 브라우저 설정
+            // 브라우저의 상위 버전 두개(예: IE 11, 10)와 한국(KR)에서 5% 이상의 점유율을 가지고 있는 브라우저에 대응하여 컴파일한다.
+            { "targets": { "browsers": ["last 2 versions", ">= 5% in KR"] } } 
+        ],
+        "@babel/react",  // 리액트도 컴파일 할 수 있도록 추가하는 코드.
+        "@babel/typescript"  //  TS도 컴파일 할 수 있도록 추가하는 코드.
     ]
 }
