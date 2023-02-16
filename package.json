@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "prebuild": "rimraf dist",
-    "build": "webpack --progress --mode production"
+    "build": "webpack --progress --mode production",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src"
   },
   "keywords": [],
   "author": "nahyeon",
@@ -20,6 +22,10 @@
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^9.1.2",
+    "eslint": "^8.34.0",
+    "eslint-plugin-functional": "^5.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
     "html-webpack-plugin": "^5.5.0",
     "rimraf": "^4.1.2",
     "webpack": "^5.75.0",
